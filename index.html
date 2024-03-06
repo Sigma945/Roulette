@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>今天吃什麼</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+<div class="container-fluid">
+  <section class="turntable">
+    <div class="list">
+      <ul></ul>
+    </div>
+    <button class="turntable_btn btn btn-primary" type="button">GO</button>
+    <svg class="img-fluid" viewBox="-50 -50 100 100">
+      <g class="bottom">
+        <ellipse cx="0" cy="40" rx="30" ry="4"></ellipse>
+      </g>
+      <g class="polyline">
+        <polyline points="-16,-38 16,-38 0,0"></polyline>
+        <polyline points="16,-38 38,-16 0,0"></polyline>
+        <polyline points="38,-16 38,16 0,0"></polyline>
+        <polyline points="0,0 38,16 16,38"></polyline>
+        <polyline points="0,0 16,38 -16,38"></polyline>
+        <polyline points="0,0 -16,38 -38,16"></polyline>
+        <polyline points="-38,-16 -38,16 0,0"></polyline>
+        <polyline points="-16,-38 -38,-16 0,0"></polyline>
+      </g>
+      <circle cx="0" cy="0" r="40"></circle>
+      <g class="circle">
+        <circle cx="0" cy="-40" r="0.8"></circle>
+        <circle cx="15.6" cy="-36.8" r="0.8"></circle>
+        <circle cx="28.5" cy="-28" r="0.8"></circle>
+        <circle cx="36.8" cy="-15.6" r="0.8"></circle>
+        <circle cx="40" cy="0" r="0.8"></circle>
+        <circle cx="36.8" cy="15.6" r="0.8"></circle>
+        <circle cx="28.5" cy="28" r="0.8"></circle>
+        <circle cx="15.6" cy="36.8" r="0.8"></circle>
+        <circle cx="0" cy="40" r="0.8"></circle>
+        <circle cx="-36.8" cy="15.6" r="0.8"></circle>
+        <circle cx="-28.5" cy="28" r="0.8"></circle>
+        <circle cx="-15.6" cy="36.8" r="0.8"></circle>
+        <circle cx="-40" cy="0" r="0.8"></circle>
+        <circle cx="-36.8" cy="-15.6" r="0.8"></circle>
+        <circle cx="-28.5" cy="-28" r="0.8"></circle>
+        <circle cx="-15.6" cy="-36.8" r="0.8"></circle>
+      </g>
+      <g class="mark">
+        <circle cx="0" cy="-43" r="4"></circle>
+        <polyline points="-3.5,-41 3.5,-41 0,-35"></polyline>
+        <circle class="round" cx="0" cy="-43" r="1.5"></circle>
+      </g>
+    </svg>
+  </section>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script src="./script.js"></script>
+</body>
+</html>
