@@ -2,18 +2,18 @@
 var prize_list = [
   {
     name: "拉麵",
-    img: "https://cdn-icons-png.flaticon.com/512/1405/1405225.png"
-    // img: "./拉麵.png"
+    //img: "https://cdn-icons-png.flaticon.com/512/1405/1405225.png"
+    img: "./拉麵.png"
   },
   {
     name: "麥當勞",
-    img: "https://i.pinimg.com/474x/89/3e/b9/893eb9b2ff54f3da0685196b86758f4e.jpg"
-    // img: "./麥當勞.png"
+    //img: "https://i.pinimg.com/474x/89/3e/b9/893eb9b2ff54f3da0685196b86758f4e.jpg"
+    img: "./麥當勞.png"
   },
   {
     name: "鍋貼",
-    img: "http://pic.pimg.tw/tassmania/normal_4a125072b16f8.jpg"
-    // img: "./鍋貼.png"
+    //img: "http://pic.pimg.tw/tassmania/normal_4a125072b16f8.jpg"
+    img: "./鍋貼.png"
   },
   {
     name: "便利商店",
@@ -21,23 +21,23 @@ var prize_list = [
   },
   {
     name: "鍋燒意麵",
-    img: "https://tokyo-kitchen.icook.network/uploads/recipe/cover/228874/3e95d20b36732cde.jpg"
-    // img: "./鍋燒意麵.png"
+    //img: "https://tokyo-kitchen.icook.network/uploads/recipe/cover/228874/3e95d20b36732cde.jpg"
+    img: "./鍋燒意麵.png"
   },
   {
     name: "牛肉麵",
-    img: "https://joes.tw/wp-content/uploads/pixnet/6ca33a59664e944edba61142a21dcb9b.jpg"
-    // img: "./牛肉麵.png"
+    //img: "https://joes.tw/wp-content/uploads/pixnet/6ca33a59664e944edba61142a21dcb9b.jpg"
+    img: "./牛肉麵.png"
   },
   {
     name: "炒飯",
-    img: "https://pic.pimg.tw/etliaw/1628657551-3958863848-g_m.jpg"
-    // img: "./炒飯.png"
+    //img: "https://pic.pimg.tw/etliaw/1628657551-3958863848-g_m.jpg"
+    img: "./炒飯.png"
   },
   {
     name: "韓式料理",
-    img: "https://i.pinimg.com/474x/2e/c7/c9/2ec7c93588cac480290938f71eaafdfa.jpg"
-    // img: "./韓式料理.png"
+    //img: "https://i.pinimg.com/474x/2e/c7/c9/2ec7c93588cac480290938f71eaafdfa.jpg"
+    img: "./韓式料理.png"
   },
 ]
 
@@ -129,6 +129,10 @@ function rotating()
         break;
       }
 }
-//background-color: #3DBFBB;
-//max-width: 1000px;
-//min-width: 400px;
+
+$(window).resize(function() {
+  var width = $(window).width();
+  var height = $(window).height();
+  // 根據螢幕寬度和高度調整轉盤大小
+  // 例如：$('.turntable').css('width', width * 0.5);
+});

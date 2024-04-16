@@ -24,6 +24,31 @@
   font-family: "微軟正黑體";
 }
 
+html{
+  height: 100%;
+}
+
+body {
+  
+  background-image:url("./夜市.jpg" );
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  
+  
+}
+
+
+.container {
+  
+  max-width: 1000px;
+  min-width: 400px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+
 .cover{
   background-size:cover;
 }
@@ -35,6 +60,8 @@ header {
 
 section.turntable {
   position: relative;
+  /* width: 75%; 
+  height: 75%; */
   
 }
 section.turntable button.turntable_btn {
